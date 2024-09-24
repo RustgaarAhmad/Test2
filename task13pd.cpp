@@ -2,18 +2,22 @@
 using namespace std;
 main()
 {
-int number1, number2, number3, number4, number5;
+int num,sum=0;
 cout << "Enter first number: ";
-cin >> number1;
+cin >> num;
+sum+=num;
 cout << "Enter second number: ";
-cin >> number2;
+cin >> num;
+sum+=num;
 cout << "Enter third number: ";
-cin >> number3;
+cin >> num;
+sum+=num;
 cout << "Enter fourth number: ";
-cin >> number4;
+cin >> num;
+sum+=num;
 cout << "Enter fifth number: ";
-cin >> number5; 
-int sum = number1 + number2 + number3 + number4 + number5;
+cin >> num; 
+sum+=num;
 cout << "The final sum is: ";
 cout<< sum << endl;
 }
